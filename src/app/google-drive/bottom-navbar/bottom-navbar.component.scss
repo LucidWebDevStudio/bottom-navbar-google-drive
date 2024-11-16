@@ -1,0 +1,34 @@
+$blue: #4285f4;
+$dark-gray: #323232;
+$light-gray: #c3c3c3;
+
+nav {
+  z-index: 5;
+  background-color: $dark-gray;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+a {
+  color: $light-gray;
+  text-decoration: none;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+span {
+  font-size: 12px;
+}
+
+.active {
+  color: $blue;
+}
